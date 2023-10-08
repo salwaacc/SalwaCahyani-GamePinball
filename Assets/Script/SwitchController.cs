@@ -17,6 +17,8 @@ public class SwitchController : MonoBehaviour
    private Renderer renderer;
    private SwitchState state;
 
+
+
    private void Start(){
     renderer= GetComponent<Renderer>();
     
@@ -37,6 +39,7 @@ public class SwitchController : MonoBehaviour
         state= SwitchState.On;
         renderer.material = onMaterial;
         StopAllCoroutines();
+        
     } else {
         state= SwitchState.Off;
         renderer.material = offMaterial;

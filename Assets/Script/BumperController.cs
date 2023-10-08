@@ -10,6 +10,9 @@ public class BumperController : MonoBehaviour
     private Renderer renderer;
     private Animator animator;
 
+    public AudioManager audioManager;
+    public VFXManager vfxManager;
+
     private void Start(){
         
         renderer = GetComponent<Renderer>();
@@ -24,6 +27,13 @@ public class BumperController : MonoBehaviour
 
             //animasi
             animator.SetTrigger("Hit");
+
+            //play SFX
+            audioManager.PlaySFX(collision.transform.position);
+
+            //play vfx
+            vfxManager.PlayVFX(collision.transform.position);
+
         }
     }
 

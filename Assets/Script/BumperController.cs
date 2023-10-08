@@ -13,6 +13,9 @@ public class BumperController : MonoBehaviour
     public AudioManager audioManager;
     public VFXManager vfxManager;
 
+    public ScoreManager scoreManager;
+    public float score;
+
     private void Start(){
         
         renderer = GetComponent<Renderer>();
@@ -33,6 +36,9 @@ public class BumperController : MonoBehaviour
 
             //play vfx
             vfxManager.PlayVFX(collision.transform.position);
+
+            //tambah score saat menabrak bumper
+            scoreManager.AddScore(score);
 
         }
     }

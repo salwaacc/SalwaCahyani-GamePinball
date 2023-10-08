@@ -16,7 +16,9 @@ public class SwitchController : MonoBehaviour
    
    private Renderer renderer;
    private SwitchState state;
-
+   
+   public ScoreManager scoreManager;
+    public float score;
 
 
    private void Start(){
@@ -50,12 +52,13 @@ public class SwitchController : MonoBehaviour
     private void Toggle(){
     if (state == SwitchState.On)
     {
-      Set(false);
+      Set(false); 
     }
     else
     {
       Set(true);
     }
+    scoreManager.AddScore(score);
   }
 
    private IEnumerator Blink(int times){

@@ -26,4 +26,6 @@ public class BumperController : MonoBehaviour
             animator.SetTrigger("Hit");
         }
     }
+
+    
 }

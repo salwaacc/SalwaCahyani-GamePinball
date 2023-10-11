@@ -816,6 +816,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   vfxSource: {fileID: 2749602879012798035, guid: fdfdc739d3a04ff40a27db8dec0bd88b, type: 3}
+  bola: {fileID: 1676721915}
 --- !u!1001 &238584396
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1369,6 +1370,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   vfxSource: {fileID: 2749602879012798035, guid: fdfdc739d3a04ff40a27db8dec0bd88b, type: 3}
+  bola: {fileID: 1676721915}
 --- !u!4 &556092773
 Transform:
   m_ObjectHideFlags: 0
@@ -1708,6 +1710,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   vfxSource: {fileID: 2749602879012798035, guid: fdfdc739d3a04ff40a27db8dec0bd88b, type: 3}
+  bola: {fileID: 1676721915}
 --- !u!1 &712335210
 GameObject:
   m_ObjectHideFlags: 0
@@ -2305,6 +2308,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   vfxSource: {fileID: 2749602879012798035, guid: fdfdc739d3a04ff40a27db8dec0bd88b, type: 3}
+  bola: {fileID: 1676721915}
 --- !u!1 &933985210
 GameObject:
   m_ObjectHideFlags: 0
@@ -6357,7 +6361,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2651768708016567687, guid: 5d6159442495e44448948a706963496a, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 8.69
+      value: 2.95
       objectReference: {fileID: 0}
     - target: {fileID: 2651768708016567687, guid: 5d6159442495e44448948a706963496a, type: 3}
       propertyPath: m_LocalPosition.y
@@ -6365,7 +6369,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2651768708016567687, guid: 5d6159442495e44448948a706963496a, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -5.38
+      value: 11.32
       objectReference: {fileID: 0}
     - target: {fileID: 2651768708016567687, guid: 5d6159442495e44448948a706963496a, type: 3}
       propertyPath: m_LocalRotation.w

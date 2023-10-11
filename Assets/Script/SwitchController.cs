@@ -18,7 +18,8 @@ public class SwitchController : MonoBehaviour
    private SwitchState state;
    
    public ScoreManager scoreManager;
-    public float score;
+   public float score;
+   public VFXSwitch vfxSwitch;
 
 
    private void Start(){
@@ -32,6 +33,7 @@ public class SwitchController : MonoBehaviour
    private void OnTriggerEnter(Collider other){
     if(other == bola){
         Toggle();
+
     }
    }
 
